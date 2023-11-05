@@ -1,5 +1,5 @@
 ## ImageBasedModellingEduV2.0
-ImageBasedModellingEdu2.0 - code used to support the image-based 3D model reconstruction course of Deep Blue Academy. The code comes from the famous open source **3D reconstruction** open source system: [MVE](https://github.com/simonfuhrmann/mve)
+ImageBasedModellingEdu2.0 - code used to support the image-based 3D model reconstruction course of Deep Blue Academy. The code comes from the famous open source **3D reconstruction** open source system: [MVE](https://github.com/simonfuhrmann/mve)<br>
 Based on this, we have adjusted the structure of the code to make it more relevant to the course and helpful for reading and learning. This project is managed using CMake, which allows for easy cross-platform compilation. The code includes modules such as feature extraction and matching, epipolar geometry, motion recovery structure, dense reconstruction, surface reconstruction, texture mapping, and visualization, and will be continuously updated as the course progresses.
 
 ## Architecture
