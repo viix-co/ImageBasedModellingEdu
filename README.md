@@ -1,5 +1,5 @@
 ## ImageBasedModellingEduV2.0
-ImageBasedModellingEdu2.0 - code used to support the image-based 3D model reconstruction course of Deep Blue Academy. The code comes from the famous open source 3D reconstruction open source system: [MVE](https://github.com/simonfuhrmann/mve)
+ImageBasedModellingEdu2.0 - code used to support the image-based 3D model reconstruction course of Deep Blue Academy. The code comes from the famous open source **3D reconstruction** open source system: [MVE](https://github.com/simonfuhrmann/mve)
 Based on this, we have adjusted the structure of the code to make it more relevant to the course and helpful for reading and learning. This project is managed using CMake, which allows for easy cross-platform compilation. The code includes modules such as feature extraction and matching, epipolar geometry, motion recovery structure, dense reconstruction, surface reconstruction, texture mapping, and visualization, and will be continuously updated as the course progresses.
 
 ## Architecture
@@ -15,7 +15,7 @@ The project mainly includes: core, math, util, features, sfm, mvs, surface, text
 - tmp - store temporary data;
 
 ## Compilation（Mac and Linux, Window compilation is not verified)
-1.Install dependent libraries including: libpng, libjpeg, libtiff, eigen
+**1.** Install dependency including: libpng, libjpeg, libtiff, eigen
 
  ### Linux
  sudo apt-get install libjpeg-dev
@@ -29,8 +29,8 @@ The project mainly includes: core, math, util, features, sfm, mvs, surface, text
  
  brew install libtiff
  
-2. Build the implementation 
-
+**2.** Build the implementation 
+```
     git clone https://github.com/weisui-ad/ImageBasedModellingEdu.git
     
     cd ~/ImageBasedModellingEdu
@@ -40,9 +40,8 @@ The project mainly includes: core, math, util, features, sfm, mvs, surface, text
     cmake -DCMAKE_BUILD_TYPE=Release .. 
     
     make -j8
-
-3. Code examples/
-
+```
+**3.** Code examples/
+```
    ./build/examples/task3/task3-1_incremental_sfm ./examples/data/sequence ./examples/data/sequence_scene
-
- 
+```
