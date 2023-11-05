@@ -14,8 +14,8 @@ The project mainly includes: core, math, util, features, sfm, mvs, surface, text
 - examples - provide sample code for some key modules;
 - tmp - store temporary data;
 
-## Compilation（Mac and Linux, Window compilation is not verified)
-**1.** Install dependency including: libpng, libjpeg, libtiff, eigen
+## Compilation (Mac and Linux, Window compilation is not verified)
+**1.Install dependency including: libpng, libjpeg, libtiff, eigen:**
 
  ### Linux
  sudo apt-get install libjpeg-dev
@@ -29,7 +29,7 @@ The project mainly includes: core, math, util, features, sfm, mvs, surface, text
  
  brew install libtiff
  
-**2.** Build the implementation 
+**2.Build the implementation:**
 ```
     git clone https://github.com/weisui-ad/ImageBasedModellingEdu.git
     
@@ -41,7 +41,7 @@ The project mainly includes: core, math, util, features, sfm, mvs, surface, text
     
     make -j8
 ```
-**3.** Code examples/
+**3.Code examples:**
 ```
    ./build/examples/task3/task3-1_incremental_sfm ./examples/data/sequence ./examples/data/sequence_scene
 ```
