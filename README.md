@@ -4,11 +4,11 @@ Based on this, we have adjusted the structure of the code to make it more releva
 
 ## Architecture
 The project mainly includes: core, math, util, features, sfm, mvs, surface, texturing, and other main modules, among which included:
-- core - provides all basic data structures needed for engineering projects，include image, depthmap, mesh, view, and data input and output and other structures and functions;
-- math provide matrix，vector, basic mathematical operations such as quaternions;
-- features - provide feature extraction and feature matching functions，feature types include sift and surf;
-- sfm (**Structure-from-Motion**) - rovides functionality related to **motion recovery structures**, **camera position recovery**，triangulation and bundle adjustment of 3D-points etc..;
-- mvs - provide **stereo matching** function，implementation **dense point cloud matching**;
+- core - provides all basic data structures needed for engineering projects, include image, depthmap, mesh, view, and data input and output and other structures and functions;
+- math provide matrix, vector, basic mathematical operations such as quaternions;
+- features - provide feature extraction and feature matching functions, feature types include sift and surf;
+- sfm (**Structure-from-Motion**) - rovides functionality related to **motion recovery structures**, **camera position recovery**, triangulation and bundle adjustment of 3D-points etc;
+- mvs - provide **stereo matching** function, implementation **dense point cloud matching**;
 - surface - implement point cloud to mesh surface reconstruction;
 - texturing - implement creation of texture images;
 - examples - provide sample code for some key modules;
